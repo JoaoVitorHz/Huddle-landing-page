@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    background-color: var(--violet);
+    background-image: url(../images/bg-desktop.svg);
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+
+    width: 90%;
+    height: 90%;
+}
+
+.left {
+    width: 50%;
+}
+
+.left .logo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+
+    margin-left: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.right h1 {
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.right p {
+    color: #eee;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.right button {
+    background-color: #FFF;
+    color: var(--violet);
+    padding: 15px 75px;
+    font-size: 20px;
+
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.right button:hover {
+    background-color: var(--soft-magenta);
+    color: #FFF
+}
+
+.social {
+    border-radius: 100%;
+    border: 2px solid #FFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.social:hover {
+    border: 2px solid var(--soft-magenta);
+}
+
+.social:hover svg {
+    fill: var(--soft-magenta);
+    filter: invert(0);
+}
+
+.right svg {
+    width: 15px;
+    filter: invert(1);
+}
+
+.socialMedias {
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: -200px;
+}
+
+@media (max-width: 1353px) {
+    #main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero img {
+        transform: translateX(-10%);
+    }
+
+    .socialMedias {
+        align-self: auto;
+    }
+
+    .right {
+        align-items: center;
+        width: 500px;
+        text-align: center;
+    }
+
+    .right p {
+        width: 100%;
+        max-width: 475px;
+    }
+}
+
+@media (max-width: 600px) {
+    .right {
+        transform: translateX(20%);
+    }
+}
+
+@media (max-width: 425px) {
+    .right {
+        transform: translateX(30%);
+    }
+
+    .hero img {
+        transform: translateX(-5%);
+    }
+}
