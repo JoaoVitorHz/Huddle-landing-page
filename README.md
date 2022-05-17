@@ -1,5 +1,5 @@
 <h2> Introdução ✧</h2>
-Neste desafio de WebSite, fiz um projeto simples só pra treinar algumas habilidades 😁, nesse desafio foi feito uma landing page com alguns SVG, textos e botões. Lembrando que esse layout foi encontrado no site <a href=""https://www.frontendmentor.io/home>"Frontend Mentor"</a>🧐.
+Neste desafio de WebSite, fiz um projeto simples só pra treinar algumas habilidades 😁, nesse desafio foi feito uma landing page com alguns SVG, textos e botões. Lembrando que esse layout foi encontrado no site <a href="https://www.frontendmentor.io/home">"Frontend Mentor"</a>🧐.
 <br><br> 
 Só lembrando que eu tenho um canal no Youtube onde posto alguns tutorias e videos realizando alguns projetos, vai lá conferir. 😎 https://www.youtube.com/channel/UCaVUPNWWs0f25HDkOd_UTLg
 
